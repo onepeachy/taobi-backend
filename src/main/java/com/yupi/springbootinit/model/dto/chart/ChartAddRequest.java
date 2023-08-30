@@ -9,11 +9,16 @@ import java.io.Serializable;
 /**
  * 创建请求
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
+ * @author <a href="https://github.com/liyupi">外星桃子</a>
  * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Data
 public class ChartAddRequest implements Serializable {
+
+    /**
+     * 图表名称
+     */
+    private String name;
 
     /**
      * 分析目标
